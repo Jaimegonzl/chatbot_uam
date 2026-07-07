@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot UAM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Chatbot UAM</h2>
+
+<div id="chat">
+<div class="mensaje-bot">
+Hola 👋 Soy el asistente de información de la UAM.  
+Puedes preguntarme sobre inscripciones, trámites o servicios.
+</div>
+</div>
+
+<div class="input-area">
+    <input id="input" placeholder="Escribe tu pregunta..." />
+    <button onclick="enviar()">Enviar</button>
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

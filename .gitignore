@@ -1,0 +1,16 @@
+# Entorno virtual (pesa mucho y no se comparte)
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Configuración de editores (Visual Studio / VS Code)
+.vs/
+.vscode/
+
+# Archivo de variables de entorno (¡Contiene tus contraseñas/claves secretas!)
+.env
+
+# Tu base de datos local (opcional, para que no se sobreescriban tus datos locales al hacer pull)
+db/*.db
