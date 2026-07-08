@@ -13,4 +13,4 @@ __pycache__/
 .env
 
 # Tu base de datos local (opcional, para que no se sobreescriban tus datos locales al hacer pull)
-db/*.db
+# db/*.db
